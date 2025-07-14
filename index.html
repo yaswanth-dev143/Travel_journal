@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Journal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Travel Journal</h1>
+    <!-- Geolocation Section -->
+    <section class="card">
+      <h2>Your Location</h2>
+      <button id="getLocationBtn">Log My Location</button>
+      <div id="locationDisplay" class="info"></div>
+    </section>
+    <!-- Canvas Section -->
+    <section class="card">
+      <h2>Draw on the Map</h2>
+      <div class="toolbar">
+        <label>Color: <input type="color" id="colorPicker" value="#1f2937"></label>
+        <label>Pen Size:
+          <select id="penSize">
+            <option value="2">Thin</option>
+            <option value="5">Medium</option>
+            <option value="10">Thick</option>
+            <option value="20">Extra Thick</option>
+          </select>
+        </label>
+        <button id="clearCanvasBtn">Clear</button>
+      </div>
+      <canvas id="mapCanvas" width="500" height="300"></canvas>
+    </section>
+    <!-- Notes Section -->
+    <section class="card">
+      <h2>Notes</h2>
+      <textarea id="noteInput" rows="3" placeholder="Write your note..."></textarea>
+      <button id="saveNoteBtn">Save Note</button>
+      <div id="notesList"></div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html> 
