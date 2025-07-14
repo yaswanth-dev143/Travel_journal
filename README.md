@@ -33,9 +33,5 @@ A modern, interactive web app for logging your travels, drawing on a virtual map
 4. Use the app to log your location, draw on the map, and save notes!
 
 ## Screenshots
+https://rainbow-salamander-9c4144.netlify.app/
 
-*(Add screenshots here if desired)*
-
-## License
-
-This project is open source and free to use for personal or educational purposes. 
